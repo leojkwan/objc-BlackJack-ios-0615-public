@@ -20,7 +20,7 @@
 		440FE75B19464F8000C45D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440FE75919464F8000C45D87 /* InfoPlist.strings */; };
 		440FE7671946513900C45D87 /* PlayingCardDeckSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 440FE7661946513900C45D87 /* PlayingCardDeckSpec.m */; };
 		440FE77A1949037A00C45D87 /* BlackjackGameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 440FE7791949037A00C45D87 /* BlackjackGameSpec.m */; };
-		94F0B0E21B28EA4C001CE29C /* FISBlackJackGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0B0E11B28EA4C001CE29C /* FISBlackJackGame.m */; };
+		94F0B0E21B28EA4C001CE29C /* FISBlackjackGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0B0E11B28EA4C001CE29C /* FISBlackjackGame.m */; };
 		94FDDDA51B289E370047A72B /* FISPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDDDA41B289E370047A72B /* FISPlayingCard.m */; };
 		94FDDDA81B289E590047A72B /* FISPlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FDDDA71B289E590047A72B /* FISPlayingCardDeck.m */; };
 		E2FEB8371B14F19C004A0BCC /* PlayingCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FEB8361B14F19C004A0BCC /* PlayingCardSpec.m */; };
@@ -56,8 +56,8 @@
 		440FE7661946513900C45D87 /* PlayingCardDeckSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeckSpec.m; sourceTree = "<group>"; };
 		440FE7791949037A00C45D87 /* BlackjackGameSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackjackGameSpec.m; sourceTree = "<group>"; };
 		94F0B0DF1B28E545001CE29C /* FISPlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlayingCard.h; sourceTree = "<group>"; };
-		94F0B0E01B28EA4C001CE29C /* FISBlackJackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackJackGame.h; sourceTree = "<group>"; };
-		94F0B0E11B28EA4C001CE29C /* FISBlackJackGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackJackGame.m; sourceTree = "<group>"; };
+		94F0B0E01B28EA4C001CE29C /* FISBlackjackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackjackGame.h; sourceTree = "<group>"; };
+		94F0B0E11B28EA4C001CE29C /* FISBlackjackGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackGame.m; sourceTree = "<group>"; };
 		94FDDDA41B289E370047A72B /* FISPlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlayingCard.m; sourceTree = "<group>"; };
 		94FDDDA61B289E590047A72B /* FISPlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlayingCardDeck.h; sourceTree = "<group>"; };
 		94FDDDA71B289E590047A72B /* FISPlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlayingCardDeck.m; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 				94FDDDA71B289E590047A72B /* FISPlayingCardDeck.m */,
 				94F0B0DF1B28E545001CE29C /* FISPlayingCard.h */,
 				94FDDDA41B289E370047A72B /* FISPlayingCard.m */,
-				94F0B0E01B28EA4C001CE29C /* FISBlackJackGame.h */,
-				94F0B0E11B28EA4C001CE29C /* FISBlackJackGame.m */,
+				94F0B0E01B28EA4C001CE29C /* FISBlackjackGame.h */,
+				94F0B0E11B28EA4C001CE29C /* FISBlackjackGame.m */,
 				440FE73D19464F8000C45D87 /* BlackJack */,
 				440FE75619464F8000C45D87 /* BlackJackTests */,
 				440FE73619464F8000C45D87 /* Frameworks */,
@@ -315,7 +315,7 @@
 				440FE74419464F8000C45D87 /* main.m in Sources */,
 				94FDDDA51B289E370047A72B /* FISPlayingCard.m in Sources */,
 				94FDDDA81B289E590047A72B /* FISPlayingCardDeck.m in Sources */,
-				94F0B0E21B28EA4C001CE29C /* FISBlackJackGame.m in Sources */,
+				94F0B0E21B28EA4C001CE29C /* FISBlackjackGame.m in Sources */,
 				440FE74819464F8000C45D87 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

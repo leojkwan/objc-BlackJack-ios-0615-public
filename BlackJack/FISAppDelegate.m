@@ -12,13 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    NSLog(@"Hi");
-    FISPlayingCardDeck *deck = [[FISPlayingCardDeck alloc] init];
-    NSLog(@"%@", [deck.cards objectAtIndex:8]);
+    FISBlackjackGame *leosGame = [[FISBlackjackGame alloc] init];
+    [leosGame deal];
+  
+
+    NSLog(@"hi");
+    NSLog(@"%@", leosGame.handScore);
+    
+    
+    //    FISPlayingCardDeck *deck = [[FISPlayingCardDeck alloc] init];
+//    NSLog(@"%@", [deck.cards objectAtIndex:8]);
     return YES;
 }
 

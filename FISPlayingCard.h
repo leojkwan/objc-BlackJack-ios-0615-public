@@ -12,7 +12,7 @@
 @interface FISPlayingCard : NSObject
 
 @property (strong, nonatomic) NSString *suit;
-@property (nonatomic) NSNumber* rank;
+@property (strong, nonatomic) NSNumber* rank;
 
 -(instancetype) initWithSuit:(NSString *)suit rank:(NSNumber*)rank;
 

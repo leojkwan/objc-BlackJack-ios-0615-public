@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FISPlayingCardDeck.h"
-
+#import "FISBlackjackGame.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 
