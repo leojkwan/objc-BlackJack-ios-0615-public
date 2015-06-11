@@ -16,6 +16,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    NSLog(@"Hi");
+    FISPlayingCardDeck *deck = [[FISPlayingCardDeck alloc] init];
+    NSLog(@"%@", [deck.cards objectAtIndex:8]);
     return YES;
 }
 
